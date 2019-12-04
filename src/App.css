@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+button {
+  border: 1px solid black;
 }
 
 .App-logo {
@@ -21,6 +21,50 @@
   color: #09d3ac;
 }
 
+#header {
+  height: 100px;
+  width: 100vw;
+  background-color: #ab2a19;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  text-transform: uppercase;
+}
+
+.App {
+  text-align: center;
+}
+
 input {
   border: 0.5px solid black;
+}
+
+#body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#dashform {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#dash {
+  width: 50vw;
+  min-height: 100vh;
+  border: 1px solid black;
+}
+
+#form {
+  width: 30vw;
+  height: calc(100vh - 100px);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
