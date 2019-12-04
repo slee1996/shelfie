@@ -20,3 +20,7 @@
 .App-link {
   color: #09d3ac;
 }
+
+input {
+  border: 0.5px solid black;
+}
