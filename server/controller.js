@@ -23,5 +23,5 @@ module.exports = {
         dbInstance.delete_product(id)
             .then(() => res.sendStatus(200))
             .catch(console.error)
-        }
     }
+}

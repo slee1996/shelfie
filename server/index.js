@@ -22,3 +22,4 @@ const baseUrl = '/api/inventory/'
 app.get(baseUrl, uc.getInventory)
 app.post(baseUrl, uc.post)
 app.delete(`${baseUrl}:id`, uc.delete)
+
