@@ -19,13 +19,9 @@ export default class App extends Component {
       .catch(console.error())
   }
 
-  componentDidMount(){
-    this.getInventory()
-  }
+  componentDidMount(){this.getInventory()}
 
-  componentDidUpdate(){
-    this.getInventory()
-  }
+  componentDidUpdate(){this.getInventory()}
 
   render(){
     const inventory = this.state.inventory
